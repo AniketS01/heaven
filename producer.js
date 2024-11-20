@@ -1,5 +1,5 @@
 const io = require("socket.io-client");
-const socket = io("http://172.20.10.5:3000");
+const socket = io("http://172.20.10.5");
 const figlet = require('figlet')
 
 figlet("Heaven", function (err, data) {
