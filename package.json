@@ -1,0 +1,19 @@
+{
+  "name": "haven",
+  "version": "1.0.0",
+  "description": "a safe haven",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "aniket shetye",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "figlet": "^1.8.0",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  }
+}
